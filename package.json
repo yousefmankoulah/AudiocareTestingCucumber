@@ -1,0 +1,23 @@
+{
+  "name": "audiocare-playwright-cucumber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js test"
+  },
+  "keywords": [],
+  "author": "Mankoulah",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^9.5.0",
+    "@playwright/test": "^1.37.1",
+    "dotenv": "^16.3.1",
+    "fs-extra": "^11.1.1",
+    "multiple-cucumber-html-reporter": "^3.4.0",
+    "ts-node": "^10.9.1"
+  },
+  "dependencies": {
+    "playwright": "^1.37.1"
+  }
+}

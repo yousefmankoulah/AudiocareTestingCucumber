@@ -1,0 +1,851 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "generate-the-qr-code;generate-qr-code",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Generate QR code",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 552803259
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User navigates to the application",
+            "match": {
+              "location": "src/test/steps/loginSteps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 615376771
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "User enter the username as \"audiocare\"",
+            "match": {
+              "location": "src/test/steps/loginSteps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 51151981
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "User enter the password as \"[Acs2011029999]\"",
+            "match": {
+              "location": "src/test/steps/loginSteps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 89688891
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "User click on the login button",
+            "match": {
+              "location": "src/test/steps/loginSteps.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2694334755
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "User click on the generate qr code button",
+            "match": {
+              "location": "src/test/steps/checkTheWebsite.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 128345058
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "User should enter the sitename",
+            "match": {
+              "location": "src/test/steps/checkTheWebsite.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 37087268
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "User should enter the serial number",
+            "match": {
+              "location": "src/test/steps/checkTheWebsite.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17849820
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "User should choose the site type",
+            "match": {
+              "location": "src/test/steps/checkTheWebsite.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13530716
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "User should click on the generate qr code button",
+            "match": {
+              "location": "src/test/steps/checkTheWebsite.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 140393522
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "User should see the qr code image",
+            "match": {
+              "location": "src/test/steps/checkTheWebsite.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5009721576
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 68678102
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "generate-the-qr-code;go-to-each-site",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Go to each site",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 335610470
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User navigates to the application",
+            "match": {
+              "location": "src/test/steps/loginSteps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 396125430
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "User enter the username as \"audiocare\"",
+            "match": {
+              "location": "src/test/steps/loginSteps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 45049965
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "User enter the password as \"[Acs2011029999]\"",
+            "match": {
+              "location": "src/test/steps/loginSteps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 87837110
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "User click on the login button",
+            "match": {
+              "location": "src/test/steps/loginSteps.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2879948195
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "User will choose a site from the dashboard",
+            "match": {
+              "location": "src/test/steps/checkTheWebsite.ts:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5116875192
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "print the qr code",
+            "match": {
+              "location": "src/test/steps/checkTheWebsite.ts:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5204389343
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 48421177
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "generate-the-qr-code;search-for-the-site",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Search for the site",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 278867928
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User navigates to the application",
+            "match": {
+              "location": "src/test/steps/loginSteps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 390253474
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "User enter the username as \"audiocare\"",
+            "match": {
+              "location": "src/test/steps/loginSteps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 72522379
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "User enter the password as \"[Acs2011029999]\"",
+            "match": {
+              "location": "src/test/steps/loginSteps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 89669346
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "User click on the login button",
+            "match": {
+              "location": "src/test/steps/loginSteps.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2705494516
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "User will search for a site from the dashboard",
+            "match": {
+              "location": "src/test/steps/checkTheWebsite.ts:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 150681427
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 45586074
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "generate-the-qr-code;log-out-from-the-website",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Log out from the website",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 273008022
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User navigates to the application",
+            "match": {
+              "location": "src/test/steps/loginSteps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 389849721
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "User enter the username as \"audiocare\"",
+            "match": {
+              "location": "src/test/steps/loginSteps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 49168292
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "User enter the password as \"[Acs2011029999]\"",
+            "match": {
+              "location": "src/test/steps/loginSteps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 90924497
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "User click on the login button",
+            "match": {
+              "location": "src/test/steps/loginSteps.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2777310029
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "click logout",
+            "match": {
+              "location": "src/test/steps/checkTheWebsite.ts:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 209481376
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "User will be redirected to the login page",
+            "match": {
+              "location": "src/test/steps/checkTheWebsite.ts:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 85573054
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 29354943
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "generate-the-qr-code",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Generate the qr code",
+    "tags": [],
+    "uri": "src/test/features/checkIt.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "user-authentication-tests;login-should-be-success",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Login should be success",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 300084642
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User navigates to the application",
+            "match": {
+              "location": "src/test/steps/loginSteps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 388732547
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "User enter the username as \"audiocare\"",
+            "match": {
+              "location": "src/test/steps/loginSteps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 41937965
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "User enter the password as \"[Acs2011029999]\"",
+            "match": {
+              "location": "src/test/steps/loginSteps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 93184751
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "User click on the login button",
+            "match": {
+              "location": "src/test/steps/loginSteps.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2742348445
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "Login should be success",
+            "match": {
+              "location": "src/test/steps/loginSteps.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5004358897
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 30123344
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "user-authentication-tests;login-should-be-failed",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "Login should be failed",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 284913463
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User navigates to the application",
+            "match": {
+              "location": "src/test/steps/loginSteps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 425621102
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "User enter the username as \"ymankoulah\"",
+            "match": {
+              "location": "src/test/steps/loginSteps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 44080978
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "User enter the password as \"[Acs2011029999]\"",
+            "match": {
+              "location": "src/test/steps/loginSteps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 88883965
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "User click on the login button",
+            "match": {
+              "location": "src/test/steps/loginSteps.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2322675501
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "But ",
+            "line": 19,
+            "name": "Login should fail",
+            "match": {
+              "location": "src/test/steps/loginSteps.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5005090975
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 27142499
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "user-authentication-tests;login-should-be-failed",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Login should be failed",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 293662530
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User navigates to the application",
+            "match": {
+              "location": "src/test/steps/loginSteps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 391260540
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "User enter the username as \"ymankoulah\"",
+            "match": {
+              "location": "src/test/steps/loginSteps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 45212817
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "User enter the password as \"[Acs2011029999]\"",
+            "match": {
+              "location": "src/test/steps/loginSteps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 90122092
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "User click on the login button",
+            "match": {
+              "location": "src/test/steps/loginSteps.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2329830807
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "But ",
+            "line": 19,
+            "name": "Login should fail",
+            "match": {
+              "location": "src/test/steps/loginSteps.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5005905658
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 26113772
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "user-authentication-tests;login-should-be-failed",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "Login should be failed",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 294782833
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User navigates to the application",
+            "match": {
+              "location": "src/test/steps/loginSteps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 417587303
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "User enter the username as \"ymankoulah\"",
+            "match": {
+              "location": "src/test/steps/loginSteps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 45991469
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "User enter the password as \"[Acs2011029999]\"",
+            "match": {
+              "location": "src/test/steps/loginSteps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 87211366
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "User click on the login button",
+            "match": {
+              "location": "src/test/steps/loginSteps.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2350674283
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "But ",
+            "line": 19,
+            "name": "Login should fail",
+            "match": {
+              "location": "src/test/steps/loginSteps.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5005571221
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 27806094
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "user-authentication-tests",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "User Authentication tests",
+    "tags": [],
+    "uri": "src/test/features/login.feature"
+  }
+]
